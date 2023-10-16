@@ -1,6 +1,4 @@
-export class A {
-  constructor(public a: string) {}
-}
+export class A {}
 
 declare global {
   var lib: 'a';

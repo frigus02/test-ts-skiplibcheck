@@ -1,5 +1,9 @@
-export class B {
-  constructor(public b: string) {}
+interface B {
+  b: string;
+}
+
+export function getBees(): typeof lib.bees {
+  return lib.bees;
 }
 
 declare global {

@@ -5,6 +5,6 @@
   },
   "references": [
     { "path": "../lib_a" },
-    { "path": "../lib_c" }
+    { "path": "../lib_b" }
   ]
 }
