@@ -1,7 +1,10 @@
 {
   "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "skipLibCheck": true
+  },
   "references": [
     { "path": "../lib_a" },
-    { "path": "../lib_b" }
+    { "path": "../lib_c" }
   ]
 }
