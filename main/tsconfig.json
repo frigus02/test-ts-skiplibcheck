@@ -1,0 +1,7 @@
+{
+  "extends": "../tsconfig.base.json",
+  "references": [
+    { "path": "../lib_a" },
+    { "path": "../lib_b" }
+  ]
+}
